@@ -16,9 +16,9 @@ int main()
 
 	while (true) {
 		cout << "\nEnter the difficulty level: \n";
-		cout << "1 for easy!\t";
-		cout << "2 for medium!\t";
-		cout << "3 for difficult!\t";
+		cout << "1 for easy!, you get 10 chances to choose the secret number\n";
+		cout << "2 for medium!, you get 7 chances to choose the secret number\n";
+		cout << "3 for difficult!, you get 5 chances to choose the secret number\n";
 		cout << "0 for ending the game!\n" << endl;
 
 		// select the level of difficulty
