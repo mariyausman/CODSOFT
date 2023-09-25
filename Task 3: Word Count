@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 { 
- string file_name;
+ string file_name; 
  cout<<"Enter the file name in which you want to find the word count : "; 
  cin>>file_name;
 
