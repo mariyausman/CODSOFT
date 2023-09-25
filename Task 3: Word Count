@@ -2,8 +2,12 @@
 #include <fstream>
 using namespace std;
 int main()
-{
- ifstream fin("fname.txt"); //opening text file
+{ 
+ string file_name;
+ cout<<"Enter the file name in which you want to find the word count : ";
+ cin>>file_name;
+
+inputFile.open(file_Name); //opening text file
  int word=1; //will not count first word so initial value is 1
  char ch;
 
