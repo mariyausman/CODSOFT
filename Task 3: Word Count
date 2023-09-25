@@ -4,7 +4,7 @@ using namespace std;
 int main()
 { 
  string file_name;
- cout<<"Enter the file name in which you want to find the word count : ";
+ cout<<"Enter the file name in which you want to find the word count : "; 
  cin>>file_name;
 
 inputFile.open(file_Name); //opening text file
